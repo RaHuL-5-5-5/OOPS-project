@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Logo from "./logo.jsx"
+import { Link } from "react-router-dom";
 function Login(){
   const [isMousedOver, setMouseOver] = useState(false);
   function handleClick()
@@ -29,7 +30,7 @@ function Login(){
       >Login
       </button>
     </div>
-    <p>Don't have an account? Sign up here</p>
+    <p>Don't have an account?<Link to="/signup">Sign up here</Link> </p>
     </div>
     
     
