@@ -12,11 +12,10 @@ export default class MenuExampleCompact extends Component {
     const { activeItem } = this.state
 
     return (
-        <div className='outer'>
+        <div className='dengs'>
         <div>
         <Logo/>
-        </div>
-       <div className='container' style={{ position:"relative",display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', height: '360px', paddingLeft: '50px' }}>
+       <div className='signup' style={{ position:"relative",display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', height: '560px', paddingLeft: '45px' }}>
       <Menu compact icon='labeled' color='black' size='massive'>
         <Menu.Item
           name='Student'
@@ -37,22 +36,25 @@ export default class MenuExampleCompact extends Component {
           Faculty
         </Menu.Item>
       </Menu>
-      <div style={{ position: 'absolute', top: '70%', left: '13%', transform: 'translate(-50%, -50%)' }}>
-  <input className='LoginInput' name="myInput"  placeholder="Username" style={{width:"220px"}}/>
+      <div className='signin2'>
+      <div  style={{ position: 'relative', top: '15%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+  <input name="myInput"  placeholder="Username" style={{width:"220px"}}/>
       </div>
-      <div style={{ position: 'absolute', top: '85%', left: '13%', transform: 'translate(-50%, -50%)' }}>
-  <input className='LoginInput' name="myInput"  placeholder="Username" style={{width:"220px"}}/>
+      <div  style={{ position: 'relative', top: '17%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+  <input name="myInput"  placeholder="Email" style={{width:"220px"}}/>
       </div>
-      <div style={{ position: 'absolute', top: '100%', left: '13%', transform: 'translate(-50%, -50%)' }}>
-  <input className='LoginInput' name="myInput"  placeholder="Username" style={{width:"220px"}}/>
+      <div   style={{ position: 'relative', top: '19%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+  <input name="myInput"  placeholder="Password" style={{width:"220px"}}/>
       </div>
-      <div style={{ position: 'absolute', top: '115%', left: '13%', transform: 'translate(-50%, -50%)' }}>
-  <input className='LoginInput' name="myInput"  placeholder="Username" style={{width:"220px"}}/>
+      <div  style={{ position: 'relative', top: '21%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+  <input name="myInput"  placeholder="Confirm-password" style={{width:"220px"}}/>
       </div>
-      <button className='LoginButton' style={{ position: 'absolute', top: '130%', left: '13%', transform: 'translate(-50%, -50%)' ,width:"220px"}}>
+      <button className="in2" style={{ position: 'relative', top: '24%', left: '50%', transform: 'translate(-50%, -50%)' ,width:"220px"}}>
     signup
-</button>      </div>
-   <Loginpagepic/>
+</button>    
+ </div>
+ </div>
+ </div>
       </div>
     )
   }

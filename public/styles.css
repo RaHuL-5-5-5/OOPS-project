@@ -271,4 +271,97 @@ td {
   height: 100px;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+/* body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+  background:mediumturquoise;
+  background-image:url("./login pic.jpeg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 100%;
+  height: 100%;
+} */
+.dengs{
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+  background:mediumturquoise;
+  background-image:url("./images/login pic.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 100%;
+  height: 100%;
+}
+/* .navbar {
+  
+  position: absolute;
+  margin-top:200px;
+  margin-left:200px;
+}
+.navba {
+  position: absolute;
+  margin-top:-50px;
+  margin-left:40px;
+}
+.container1 {
+ 
+  position: absolute;
+  margin-top:10px;
+  margin-left:0px;
+  margin-right:0px;
 
+}
+.container h1 {
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+}
+ */
+  .signin2 input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+  }
+ 
+/* button {
+  appearance: none;
+  outline: 0;
+  background-color:#4c3a8d;
+  border: 0;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+} */
+.in2{
+
+  appearance: none;
+  outline: 0;
+  background-color:#4c3a8d;
+  border: 0;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+
+}
