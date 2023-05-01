@@ -6,7 +6,7 @@ import Login from "./Login.jsx";
 function FinalLogin() {
   return <div className="outer">
   <Login />
-     <LoginPagePic />
+  <LoginPagePic />
     </div>
 }
 

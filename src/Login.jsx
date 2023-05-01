@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import Logo from "./logo.jsx"
-import { Link } from "react-router-dom";
 function Login(){
   const [isMousedOver, setMouseOver] = useState(false);
   function handleClick()
@@ -20,17 +19,18 @@ function Login(){
       <h2>Login</h2>
       <br></br>
       
-      <input type="text" placeholder="email-id" />
-      <input type="text" placeholder="password" />
-      <button
+      <input type="text" className="LoginInput" placeholder="email-id" />
+      <input type="text" className="LoginInput" placeholder="password" />
+      <button className="LoginButton"
         style={{ backgroundColor: isMousedOver ? "white" : null, color: isMousedOver? "#4c3a8d": "white" }}
         onClick={handleClick}
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
       >Login
       </button>
+      <p>Don't have an account?Sign up here </p>
     </div>
-    <p>Don't have an account?<Link to="/signup">Sign up here</Link> </p>
+    
     </div>
     
     
