@@ -9,7 +9,8 @@ import Dashboard from './Dashboard';
 import RoomBook from './RoomBook'
 import FinalLogin from './FinalLogin';
 import Login from './Login';
-ReactDOM.render(<FinalLogin/>
+import SignUp from './SignUp'
+ReactDOM.render(<SignUp/>
   ,document.getElementById('root'));
 
 
